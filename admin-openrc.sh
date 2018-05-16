@@ -13,7 +13,7 @@
 # ### ### ###
 # Replace the following two items for each new project
 export OS_AUTH_URL=http://128.224.140.229/identity/v3
-export OS_PROJECT_ID=5797315e9c94413ca080d82753ebd522
+export OS_PROJECT_ID=e2a0467c5e6a491aab1f99ec276f09c9
 # With the addition of Keystone we have standardized on the term **project**
 # as the entity that owns the resources.
 export OS_PROJECT_NAME="admin"

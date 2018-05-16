@@ -1,0 +1,11 @@
+sudo systemctl disable devstack@*
+sudo systemctl status devstack@*
+sudo systemctl stop devstack@*
+sudo systemctl disable devstack@*
+sudo systemctl reset-failed
+sudo systemctl daemon-reload
+sudo systemctl status devstack@*
+cd devstack/
+./unstack.sh
+./stack.sh
+
