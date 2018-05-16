@@ -7,6 +7,6 @@ git config --global core.editor "vim"
 #
 git clone https://git.openstack.org/openstack-dev/sandbox.git ~/sandbox
 #
-git clone https://git.openstack.org/openstack-dev/devstack -b stable/queens ~/devstack
+git clone https://git.openstack.org/openstack-dev/devstack ~/devstack
 #
 cp `pwd`/local.conf ~/devstack
