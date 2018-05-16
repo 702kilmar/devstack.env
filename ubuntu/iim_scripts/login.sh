@@ -1,4 +1,4 @@
-ssh -i ~ubuntu/masakari1 ubuntu@172.24.4.
+ssh -i ../keys/masakari1 ubuntu@172.24.4.9
 
 sudo apt install yum
 sudo apt-get update
