@@ -1,0 +1,1 @@
+sudo journalctl --follow --unit=devstack@masakari-engine.service

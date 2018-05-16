@@ -1,0 +1,22 @@
+ssh-copy-id  t1
+ssh scp .ssh/config t1:~/.ssh
+scp /home/ubuntu/.ssh/config  .ssh
+scp -r keys/ t1:~
+sudo scp /home/ubuntu/keys/* keys
+#
+scp m.2:/home/ubuntu/xenial-server-cloudimg-amd64-disk1.img .
+scp m.2:/home/ubuntu/masakari1 ~ubuntu 
+scp m.2:/home/ubuntu/masakari1.pub   ~ubuntu
+
+
+scp -r m.2:~/iim_scripts ~ubuntu
+scp -r m.2:/etc/masakarimonitors/* /etc/masakarimonitors
+
+scp -r m.2:/home/stack/masakari-monitors  ~stack
+
+scp m.2:~stack/demo* ~stack
+
+
+   24  scp m.2:/home/ubuntu/xenial-server-cloudimg-amd64-disk1.img .
+   26  vi scp.info
+   34  history | grep scp
